@@ -1,0 +1,26 @@
+//settings
+@import 'Settings/settings.variables';
+//tools
+
+//generic
+@import 'Generic/generic.reset';
+//base
+@import 'Base/base.body';
+@import 'Base/base.header';
+@import 'Base/base.typos';
+//objects
+@import 'Objects/objects.flexbox';
+//components
+@import 'Components/components.body';
+@import 'Components/components.header';
+@import 'Components/components.hero';
+@import 'Components/components.beneficios';
+@import 'Components/components.app';
+@import 'Components/components.maps';
+@import 'Components/components.contact';
+@import 'Components/components.footer';
+@import 'Components/components.sideNav';
+@import 'Components/components.animations';
+
+//trumps
+@import 'Trumps/trumps.modifiers';

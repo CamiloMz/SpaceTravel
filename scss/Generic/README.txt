@@ -1,0 +1,1 @@
+Reset Css, Normalize Css, elementos genericos y de externos que afectan toda la aplicación

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Perqueoo
+        link(rel="stylesheet", href="../css/fonts.css")
+        link(rel="stylesheet", href="../css/style.css")
+        link(rel="stylesheet", href="../css/main.css")
+
+        link(rel="apple-touch-icon", sizes="180x180", href="/img/favicon/apple-touch-icon.png")
+        link(rel="icon", type="image/png", sizes="32x32", href="/img/favicon/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png")
+        link(rel="manifest" href="/img/favicon/site.webmanifest")
+
+        //Google Tag Manager
+        //End Google Tag Manager
+    body
+        header
+            include ../header/_login.block.pug
+            include ../header/_header.block.pug            
+        include ../nav/_sidebarNav.block.pug
+        section.main
+            include ../hero/_hero.block.pug
+            include ../beneficios/_beneficios.block.pug
+            include ../apps/_app.block.pug
+            include ../maps/_maps.block.pug
+            include ../contact/_contact.block.pug
+        foooter
+            include ../footer/_footer.block.pug        
+    script(src="../js/main.js")
+    script(src="../js/maps.js")
+    |
+    |   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWrO2UpKt6Eadxb4iweL9ZXBlK3wrKnuc&callback=initMap"
+    |   async defer></script>
